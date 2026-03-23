@@ -1,0 +1,66 @@
+site_name: "Python Desde Cero"
+site_description: "El libro que nos hubiera gustado tener."
+site_author: "Miguel Mata (Mikata) & Claudia (Claude AI)"
+
+theme:
+  name: material
+  language: es
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Modo oscuro
+    - scheme: slate
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Modo claro
+  font:
+    text: Inter
+    code: JetBrains Mono
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - search.highlight
+
+nav:
+  - Inicio: index.md
+  - "Parte 1 — Los Cimientos":
+    - "01. Instalacion": 01-instalacion.md
+    - "02. Variables y Tipos": 02-variables-y-tipos.md
+    - "03. Operadores": 03-operadores.md
+    - "04. Strings": 04-strings.md
+    - "05. Input": 05-input.md
+  - "Parte 2 — Estructuras":
+    - "06. Condicionales": 06-condicionales.md
+    - "07. Listas": 07-listas.md
+    - "08. Tuplas": 08-tuplas.md
+    - "09. Diccionarios": 09-diccionarios.md
+    - "10. Ciclos": 10-ciclos.md
+  - "Parte 3 — Poder":
+    - "11. Funciones": 11-funciones.md
+    - "12. Modulos": 12-modulos.md
+    - "13. Archivos y JSON": 13-archivos-y-json.md
+    - "14. Errores": 14-errores.md
+    - "15. Clases": 15-clases.md
+  - "Proyecto Final":
+    - "16. Proyecto Final": 16-proyecto-final.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - tables
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/mikata
