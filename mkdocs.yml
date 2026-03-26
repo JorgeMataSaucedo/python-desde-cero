@@ -49,6 +49,7 @@ nav:
     - "15. Clases": 15-clases.md
   - "Proyecto Final":
     - "16. Proyecto Final": 16-proyecto-final.md
+  - "Tutor": tutor.md
 
 markdown_extensions:
   - pymdownx.highlight:
